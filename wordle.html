@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <title>Z3 Wordle</title>
+    <meta name="viewport" content="width=device-width, initial-scale =0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="wordle.css">
+    <script src="wordle.js"></script>
+   </head>
+
+  <body style="background-color:#1b1b1b">
+    <h1 id="title">Z3 Wordle</h1>
+      <button id="settings-button">
+        <i class = "fas fa-cog"></i>
+      </button>
+
+    <div class="settings-user">
+      <div class="lan">SELECT USER</div>
+    </div>
+
+    <div class = "adminpass">
+      <div class="lan">ENTER PASSWORD</div>
+      <input type = "password" id = "password" style = "height: 30px">
+      <div id = "wrong">
+        <div>Wrong password!</div>
+      </div>
+    </div>
+
+    <div class="list-container">
+      <div class="input-container">
+        <input type="text" id="wordInput" placeholder="Enter a word">
+        <button id="addBtn">Add</button>
+      </div>
+      <div id="wordList">
+        <!-- List of words will be displayed here -->
+      </div>
+    </div>
+    <br>
+    <div id="board">    
+    </div>
+    <div id="language">
+      <div class="lan">LANGUAGE</div>
+    </div>
+    <div id="message-box"></div>
+    <br>
+   
+   </body>
+
+
+ </html>
